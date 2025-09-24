@@ -1,30 +1,30 @@
 # ✅ Laravel Blog Website CRUD Project – Task List
 
 ## Phase 1: Project Setup
-- [ ] Create new Laravel project  
-- [ ] Configure database connection  
-- [ ] Install & set up authentication system (Laravel Breeze recommended)  
+- [x] Create new Laravel project  
+- [x] Configure database connection  
+- [x] Install & set up authentication system (Laravel Breeze recommended)  
 
 ---
 
 ## Phase 2: Database Design
-- [ ] Modify `users` table migration (add `usertype` enum: admin/normal)  
-- [ ] Create `categories` table migration (with soft deletes)  
-- [ ] Create `posts` table migration (with `user_id`, `category_id`, `status`)  
-- [ ] Run all migrations  
+- [x] Modify `users` table migration (add `usertype` enum: admin/normal)  
+- [x] Create `categories` table migration (with soft deletes)  
+- [x] Create `posts` table migration (with `user_id`, `category_id`, `status`)  
+- [x] Run all migrations  
 
 ---
 
 ## Phase 3: Models & Relationships
-- [ ] Update `User` model  
-  - [ ] Add `posts()` relationship  
-  - [ ] Add `isAdmin()` helper method  
-- [ ] Create `Category` model  
-  - [ ] Enable soft deletes  
-  - [ ] Add `posts()` relationship  
-- [ ] Create `Post` model  
-  - [ ] Add `user()` and `category()` relationships  
-  - [ ] Define `$fillable` fields  
+- [x] Update `User` model  
+  - [x] Add `posts()` relationship  
+  - [x] Add `isAdmin()` helper method  
+- [x] Create `Category` model  
+  - [x] Enable soft deletes  
+  - [x] Add `posts()` relationship  
+- [x] Create `Post` model  
+  - [x] Add `user()` and `category()` relationships  
+  - [x] Define `$fillable` fields  
 
 ---
 
