@@ -36,7 +36,7 @@
 ---
 
 ## Phase 5: Controllers
-- [ ] `PostController` – CRUD operations (with ownership validation)  
+- [x] `PostController` – CRUD operations (with ownership validation)  
 - [ ] `CategoryController` – Admin-only CRUD (with soft delete + restore)  
 - [ ] `AdminController` – Dashboard & management features  
 
@@ -94,16 +94,16 @@
 ---
 
 ## Phase 9: Validation Rules
-- [ ] **Post validation**:  
+- [x] **Post validation**:  
   - Title: required, max 255 characters, unique  
   - Content: required  
   - Category: required, must exist  
   - Status: required, in `['draft','published']`  
-- [ ] **Category validation**:  
+- [x] **Category validation**:  
   - Name: required, max 255 characters, unique  
   - Slug: required, unique, URL-friendly  
   - Description: optional, max 1000 characters  
-- [ ] **User validation**:  
+- [x] **User validation**:  
   - Name: required, max 255 characters  
   - Email: required, email format, unique  
   - Password: required, min 8 characters, confirmed  
@@ -115,7 +115,7 @@
 - [ ] Implement authorization policies  
 - [ ] Hash passwords  
 - [ ] Sanitize input & protect against XSS  
-- [ ] Enable CSRF protection  
+- [x] Enable CSRF protection  
 - [ ] Validate slugs properly  
 
 ---
