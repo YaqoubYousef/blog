@@ -44,17 +44,17 @@
 
 ## Phase 6: Routes Structure
 ### Public Routes
-- [ ] GET `/` – homepage (list published posts)  
-- [ ] GET `/posts/{slug}` – view single post  
-- [ ] Auth routes (login, register, etc.)  
+- [x] GET `/` – homepage (list published posts)  
+- [x] GET `/posts/{slug}` – view single post  
+- [x] Auth routes (login, register, etc.)  
 
 ### Authenticated User Routes
-- [ ] GET `/dashboard` – user dashboard  
-- [ ] GET `/my-posts` – user’s posts  
-- [ ] POST `/posts` – create post  
-- [ ] GET `/posts/{id}/edit` – edit own post  
-- [ ] PUT `/posts/{id}` – update own post  
-- [ ] DELETE `/posts/{id}` – delete own post  
+- [x] GET `/dashboard` – user dashboard  
+- [x] GET `/my-posts` – user’s posts  
+- [x] POST `/posts` – create post  
+- [x] GET `/posts/{id}/edit` – edit own post  
+- [x] PUT `/posts/{id}` – update own post  
+- [x] DELETE `/posts/{id}` – delete own post  
 
 ### Admin Routes
 - [ ] GET `/admin/dashboard`  
@@ -65,31 +65,31 @@
 ---
 
 ## Phase 7: Views & Frontend
-- [ ] **Public Views**: homepage, single post, category-filtered posts  
+- [x] **Public Views**: homepage, single post, category-filtered posts  
 - [ ] **User Dashboard Views**: my posts, create/edit forms, profile management  
 - [ ] **Admin Views**: dashboard, posts management, category management (with restore)  
 
 ---
 
 ## Phase 8: Features Implementation
-- [ ] **Post features**:  
-  - [ ] Rich text editor for post content  
-  - [ ] Slug auto-generation from title  
-  - [ ] Draft/Published status toggle  
-  - [ ] Category selection dropdown  
-  - [ ] Excerpt auto-generation or manual input  
+- [x] **Post features**:  
+  - [x] Rich text editor for post content  
+  - [x] Slug auto-generation from title  
+  - [x] Draft/Published status toggle  
+  - [x] Category selection dropdown  
+  - [x] Excerpt auto-generation or manual input  
 - [ ] **Category features**:  
   - [ ] Category creation with validation  
   - [ ] Soft delete implementation  
   - [ ] Restore deleted categories (admin only)  
   - [ ] Post count per category  
   - [ ] Category slug generation  
-- [ ] **User Experience features**:  
-  - [ ] Pagination for post listings  
-  - [ ] Search functionality  
-  - [ ] Category filtering  
-  - [ ] Responsive design  
-  - [ ] Flash messages for user feedback  
+- [x] **User Experience features**:  
+  - [x] Pagination for post listings  
+  - [x] Search functionality  
+  - [x] Category filtering  
+  - [x] Responsive design  
+  - [x] Flash messages for user feedback  
 
 ---
 
