@@ -29,16 +29,16 @@
 ---
 
 ## Phase 4: Authorization & Middleware
-- [ ] Create `AdminMiddleware` for admin-only routes  
-- [ ] Define role-based access control  
-- [ ] Implement ownership checks for posts (user can edit/delete only their own posts)  
+- [x] Create `AdminMiddleware` for admin-only routes  
+- [x] Define role-based access control  
+- [x] Implement ownership checks for posts (user can edit/delete only their own posts)  
 
 ---
 
 ## Phase 5: Controllers
 - [x] `PostController` – CRUD operations (with ownership validation)  
-- [ ] `CategoryController` – Admin-only CRUD (with soft delete + restore)  
-- [ ] `AdminController` – Dashboard & management features  
+- [x] `CategoryController` – Admin-only CRUD (with soft delete + restore)  
+- [x] `AdminController` – Dashboard & management features  
 
 ---
 
@@ -78,12 +78,12 @@
   - [x] Draft/Published status toggle  
   - [x] Category selection dropdown  
   - [x] Excerpt auto-generation or manual input  
-- [ ] **Category features**:  
-  - [ ] Category creation with validation  
-  - [ ] Soft delete implementation  
-  - [ ] Restore deleted categories (admin only)  
-  - [ ] Post count per category  
-  - [ ] Category slug generation  
+- [x] **Category features**:  
+  - [x] Category creation with validation  
+  - [x] Soft delete implementation  
+  - [x] Restore deleted categories (admin only)  
+  - [x] Post count per category  
+  - [x] Category slug generation  
 - [x] **User Experience features**:  
   - [x] Pagination for post listings  
   - [x] Search functionality  
@@ -121,12 +121,12 @@
 ---
 
 ## Phase 11: Testing Scenarios
-- [ ] **User Role Testing**:  
+- [x] **User Role Testing**:  
   - Normal user cannot access admin routes  
   - Normal user cannot edit others’ posts  
   - Admin can manage all content  
   - Proper redirects for unauthorized access  
-- [ ] **CRUD Operations Testing**:  
+- [x] **CRUD Operations Testing**:  
   - Create posts with required fields  
   - Update posts maintaining relationships  
   - Soft delete categories & verify posts remain  
